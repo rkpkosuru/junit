@@ -29,9 +29,5 @@ public class CalculatorTest {
 		Assert.assertEquals(2, calculator.divide(6, 3));
 	}
 
-	@Test(expected = ArithmeticException.class)
-	public void testDivideWillThrowExceptionWhenDivideOnZero() {
-		Calculator calculator = new Calculator();
-		calculator.divide(6, 6);
-	}
+	
 }
