@@ -7,7 +7,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testSum() {
-		// Given
+		// Given--RKP
 		Calculator calculator = new Calculator();
 		// When
 		int result = calculator.sum(2, 2);
